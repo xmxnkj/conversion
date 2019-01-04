@@ -7,7 +7,6 @@ public interface ApiChatMessageController {
 	/**
 	 * 
 	* @Title: getMessageListByClientAndPage 
-	* @Description: 根据分页参数 获取用户的聊天记录
 	* @param @param sendclientid
 	* @param @param recclientid
 	* @param @param page
@@ -21,7 +20,6 @@ public interface ApiChatMessageController {
 	/**
 	 * 
 	* @Title: uploadMediaResource 
-	* @Description: 发送保存多媒体资源
 	* @param @param clientid
 	* @param @param restype
 	* @param @return
@@ -33,7 +31,6 @@ public interface ApiChatMessageController {
 	/**
 	 * 
 	* @Title: sendMediaMessage 
-	* @Description: 发送消息
 	* @param @param sendclientid
 	* @param @param receiveid
 	* @param @param rectype
@@ -48,7 +45,6 @@ public interface ApiChatMessageController {
 	/**
 	 * 
 	* @Title: revocatMessage  
-	* @Description: 撤回聊天消息
 	* @param @param chatmessageid
 	* @param @return    设定文件  
 	* @return ApiOutParamsVm    返回类型  
@@ -59,7 +55,6 @@ public interface ApiChatMessageController {
 	/**
 	 * 
 	* @Title: getConsultClientListByPage  
-	* @Description: 分页获取咨询用户列表
 	* @param @param clientid
 	* @param @param page
 	* @param @return    设定文件  

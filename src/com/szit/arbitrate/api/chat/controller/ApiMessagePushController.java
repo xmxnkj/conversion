@@ -20,7 +20,6 @@ public interface ApiMessagePushController {
 	/**
 	 * 
 	* @Title: getNotReadMessageCountByRecType 
-	* @Description: 获取未读消息数量
 	* @param @param requestclientid
 	* @param @param goalid
 	* @param @param goaltype
